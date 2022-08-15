@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+ 
+}
+.navlink{
+  font-weight: 300;
+}
+
+
+.photoo{
+  overflow: hidden;
+
+}
+.photo{
+  background-image: url("./images/bite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 831px;
+  height: 524px;
+  position: absolute;
+  margin: -215px auto 0 calc(((100% - 1080px) / 2) + 100px);
+}
+
+.contact{
+  position: absolute;
+  gap: 2rem;
+  margin: 15rem auto 0 calc(((100% - 1300px) / 2) + 100px);
+}
+
+.forms{
+  background-color: black;
+  padding: 3rem;
+  position: absolute;
+  height: fit-content;
+
+}
+.forms input, textarea{
+  margin-top: 1rem;
+  padding: .5rem 3rem;
+  width: 23rem;
+  border-radius: .4rem;
+}
+.forms textarea{
+  margin-top: 1rem;
+  padding: .5rem 3rem;
+  width: 23rem;
+  height: 10rem;
+}
+.forms input[type=submit]{
+  border: white .1rem solid;
+  width: 10rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: .3rem .3rem;
+}
+
+.forms input[type=submit]:hover{
+  color: black;
+  background-color: white;
+}
+.text{
+  padding: 2rem 3rem;
+  margin-left: 27rem;
+  width: 40rem;
+
+}
+.text h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+ margin: 2rem 2rem;
+}
+.text p{
+  font-size: 1.1rem;
+  margin: 2rem 2rem;
+  line-height: 1.7rem;
+  letter-spacing: .1rem;
+  font-weight: 100;
+  font-style: italic;
+}
+.footer{
+  background-color: #282c34;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  margin: 50rem 0;
+  gap: 2rem;
+  padding: 3rem 10rem;
+}
+.footcontent .box{
+  margin: 1rem;
+  width: 20%;
+}
+.footcontent .box1{
+  width: 50%;
+}
+
+
+.footcontent .box h2{
+    margin:1rem 0;
+    font-weight: 700;
+}
+.footcontent .box li{
+  margin:.5rem 0;
+  font-weight: 200;
+  list-style: none;
+  cursor: pointer;
+}
+.footcontent .box a:hover{
+  font-weight: 400;
+}
+
+.footcontent .box p{
+  margin:.5rem 0;
+  font-weight: 300;
+}
+
+.footer .icon{
+  padding: 1rem;
+  font-size: 1.1rem;
+}
