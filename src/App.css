@@ -230,7 +230,7 @@ body{
 @media (max-width:766px) {
 
     .photo{
-      margin: -13rem auto 0 calc(((100% - 565px) / 2) + 100px);
+      margin: -13rem auto 0 calc(((100% - 885px) / 2) + 100px);
       background-position: 40%;
       height: 70vh;
     }
@@ -238,16 +238,15 @@ body{
       display: block;
     }
     .forms{
-      margin: -3rem auto 0 calc(((100% - 612px) / 2) + 100px);
-      width: 80%;
-      padding: 2rem 1.3rem;
-      margin-left: 11.8rem;
+      margin: -3rem auto 0 calc(((100% - 512px) / 2) + 100px);
+      width:fit-content;
+      padding: 2rem 3rem;
     }
     .forms input{
-      width: 17.5rem;
+      width: 23rem;
     }
     .forms textarea{
-      width: 17.4rem;
+      width: 23rem;
     }
     .text{
       margin: 25rem auto 0 calc(((100% - 502px) / 2) + 100px);
@@ -277,4 +276,54 @@ body{
       width: 100%;
       margin: 1rem;
     }
+}
+@media (max-width:450px) {
+
+  .photo{
+    margin: -13rem auto 0 calc(((100% - 540px) / 2) + 100px);
+    background-position: 40%;
+    height: 70vh;
+  }
+  .contact{
+    display: block;
+  }
+  .forms{
+    margin: -3rem auto 0 calc(((100% - 652px) / 2) + 100px);
+    padding: 2rem 1.3rem;
+    margin-left: 11.8rem;
+  }
+  .forms input{
+    width: 17.5rem;
+  }
+  .forms textarea{
+    width: 17.4rem;
+  }
+  .text{
+    margin: 25rem auto 0 calc(((100% - 402px) / 2) + 100px);
+    margin-top: 25rem;
+    width:100%;
+  }
+  .text h2{
+    margin:2rem 4rem ;
+  }
+  .text p{
+    text-align: left;
+    padding: 0 2rem;
+   
+    width: 20rem;
+  }
+  .text .btn{
+    margin-left: 4rem;
+  }
+  .footcontent{
+    display: block;
+    height: fit-content;
+  }
+  .footcontent .box1{
+    width: 100%;
+  }
+  .footcontent .box{
+    width: 100%;
+    margin: 1rem;
+  }
 }
