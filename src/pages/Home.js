@@ -42,7 +42,7 @@ let [open,setOpen]=useState(false);
                             <div className="photo">
                                
                             </div>
-                            <div className="flex contact">
+                            <div className="contact flex">
                                     <div className="bg-grey-900 forms">
                                         <h1 className="text-white text-3xl py-5">CONTACT US</h1>
                                         <form >
@@ -57,7 +57,7 @@ let [open,setOpen]=useState(false);
                                         <h2 className="ext-grey-900 ">Blockchain Services</h2>
                                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                           </p>
                                         <p>Image from <a class="text-yellow-500 underline" href="#">Freepk</a></p>
-                                        <Buttons />
+                                        <div className="btn"><Buttons /></div>
                                     </div>
                             </div>
                            
